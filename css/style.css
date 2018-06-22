@@ -63,14 +63,14 @@ p {
     margin: 0 auto;
 }
 
-.main__header {
+.main-header {
     background-image: url("../img/header__bg.png");
     background-position: 0 0;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.main__header__wrapper {
+.main-header__wrapper {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -78,17 +78,17 @@ p {
     padding-bottom: 192px;
 }
 
-.main__header__list {
+.main-header__list {
     display: flex;
     justify-content: flex-end;
     align-items: center;
 }
 
-.main__header__list__item {
+.main-header__list__item {
     margin-left: 50px;
 }
 
-.main__header__button {
+.main-header__button {
     padding: 20px 40px;
     padding-right: 60px;
 
@@ -101,11 +101,11 @@ p {
     cursor: pointer;
 }
 
-.header__information {
+.header-information {
     width: 532px;
 }
 
-.header__information h1 {
+.header-information h1 {
     margin-bottom: 30px;
 
     font-size: 60px;
@@ -113,27 +113,27 @@ p {
     text-transform: uppercase;
 }
 
-.header__information p {
+.header-information p {
     margin-bottom: 30px;
 
     font-size: 16px;
     line-height: 24px;
 }
 
-.header__form {
+.header-form {
     width: 650px;
     padding-bottom: 260px;
 }
 
-.header__form form {
+.header-form form {
     display: flex;
 }
 
-.header__form__wrapper {
+.header-form__wrapper {
     position: relative;
 }
 
-.header__form__label {
+.header-form__label {
     position: absolute;
     left: 25px;
     top: 17px;
@@ -145,7 +145,7 @@ p {
     color: #333333;
 }
 
-.header__form__wrapper input {
+.header-form__wrapper input {
     width: 230px;
     padding: 20px 25px;
     margin-right: 20px;
@@ -154,7 +154,7 @@ p {
     border-radius: 3px;
 }
 
-.header__form__submit {
+.header-form__submit {
     padding: 21px 32px;
 
     font-size: 0;
@@ -318,8 +318,8 @@ p {
 .scroll__down__button {
     position: absolute;
     top: -55px;
-    left: 45%;
-    margin: 0 auto;
+    left: 50%;
+    transform: translateX(-50%);
     display: block;
     width: 0;
     height: 0;
