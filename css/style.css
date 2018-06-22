@@ -311,14 +311,9 @@ p {
     line-height: 25px;
 }
 
-
-
-
-
 .button__scroll__wrapper {
     position: relative;
 }
-
 
 .scroll__down__button {
     position: absolute;
@@ -353,5 +348,3 @@ p {
     background-color: #ffffff;
     background-image: url("../img/scroll__down__3.png");
 }
-
-/*aloooo rabotay*/
