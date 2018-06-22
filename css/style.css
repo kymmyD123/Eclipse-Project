@@ -177,7 +177,7 @@ p {
 
     padding-top: 120px;
 
-    background-color: #f1f4f7;
+    background-color: #f5f7f9;
 
 
 
@@ -309,4 +309,47 @@ p {
     color: #74797e;
     font-size: 14px;
     line-height: 25px;
+}
+
+
+
+
+
+.button__scroll__wrapper {
+    position: relative;
+}
+
+
+.scroll__down__button {
+    position: absolute;
+    top: -55px;
+    left: 45%;
+    margin: 0 auto;
+    display: block;
+    width: 0;
+    height: 0;
+    padding: 57px;
+
+    font-size: 0;
+
+    border-radius: 50%;
+    background-image: url("../img/scroll__down.png");
+    background-repeat: no-repeat;
+    background-position: 40px 40px;
+    background-color: #f5f7f9;
+}
+
+.scroll__down__button-2 {
+    top: -65px;
+
+    background-color: #28c8c6;
+    background-image: url("../img/scroll__down__2.png");
+}
+
+.scroll__down__button-3 {
+    top: -60px;
+
+    border-bottom: 1px solid #d8e0e8;
+    background-color: #ffffff;
+    background-image: url("../img/scroll__down__3.png");
 }
