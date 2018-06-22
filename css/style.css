@@ -1,7 +1,7 @@
 html, body {
     margin: 0;
     padding: 0;
-    width: 100%;
+    min-width: 1180px;
 }
 
 ul, li {
@@ -32,6 +32,10 @@ ul, li {
 }
 
 h1, h2, h3 {
+    margin: 0;
+    padding: 0;
+
+    color: #ffffff;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
 }
@@ -40,6 +44,7 @@ a {
     margin: 0;
     padding: 0;
 
+    color: #ffffff;
     font-family: 'Gotham Pro Bold';
     text-decoration: none;
 }
@@ -48,11 +53,246 @@ p {
     margin: 0;
     padding: 0;
 
+    color: #ffffff;
     font-family: 'Gotham Pro Medium';
 }
 
 .container {
-    width: 1180px;
+    width: 1146px;
+    padding: 0 17px;
     margin: 0 auto;
 }
 
+.main__header {
+    background-image: url("../img/header__bg.png");
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main__header__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 75px;
+    padding-bottom: 192px;
+}
+
+.main__header__list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.main__header__list__item {
+    margin-left: 50px;
+}
+
+.main__header__button {
+    padding: 20px 35px;
+}
+
+.header__information {
+    width: 532px;
+}
+
+.header__information h1 {
+    margin-bottom: 30px;
+
+    font-size: 60px;
+    line-height: 55px;
+    text-transform: uppercase;
+}
+
+.header__information p {
+    margin-bottom: 30px;
+
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.header__form {
+    width: 650px;
+    padding-bottom: 260px;
+}
+
+.header__form form {
+    display: flex;
+}
+
+.header__form__wrapper {
+    position: relative;
+}
+
+.header__form__label {
+    position: absolute;
+    left: 25px;
+    top: 17px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #333333;
+}
+
+.header__form__wrapper input {
+    width: 230px;
+    padding: 20px 25px;
+    margin-right: 20px;
+
+    border: none;
+    border-radius: 3px;
+}
+
+.header__form__submit {
+    padding: 21px 32px;
+
+    font-size: 0;
+
+    background-color: #28c8c6;
+    border: none;
+    border-radius: 3px;
+}
+
+.scroll__down {
+    font-size: 0;
+}
+
+.last__design__block {
+
+    padding-top: 120px;
+
+    background-color: #f1f4f7;
+
+
+
+}
+
+.design__wrapper {
+    margin: 0 auto;
+
+    text-align: center;
+    width: 660px;
+}
+
+.style__title {
+    margin-bottom: 35px;
+
+    color: #333b42;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 29px;
+}
+
+.style__info {
+    color: #74797e;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 25px;
+}
+
+.design__iphone {
+    margin-top: 75px;
+}
+
+.features__block {
+    margin-top: -4px;
+
+    border-bottom: 1px solid #d8e0e8;
+    background-color: #ffffff;
+}
+
+.features__text__wrapper {
+    padding-top: 161px;
+    margin: 0 auto;
+
+    text-align: center;
+    width: 660px;
+}
+
+.features__title {
+    margin-bottom: 35px;
+
+    color: #333b42;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 29px;
+}
+
+.features__info {
+    margin-bottom: 63px;
+
+    color: #74797e;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 25px;
+}
+
+.features__list {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 153px;
+
+    text-align: center;
+}
+
+.features__list__item {
+    margin-right: 20px;
+    width: 280px;
+}
+
+.features__list__item:last-child {
+    margin-right: 0;
+}
+
+.list__element {
+    margin: 0 auto;
+    margin-bottom: 40px;
+    width: 137px;
+    height: 137px;
+
+    border-radius: 50%;
+    background-color: #8500d2;
+}
+
+.list__element__1 {
+    background-image: url("../img/cart.png");
+    background-repeat: no-repeat;
+    background-position: 41px 49px;
+}
+
+.list__element__2 {
+    background-image: url("../img/fly.png");
+    background-repeat: no-repeat;
+    background-position: 45px 50px;
+}
+
+.list__element__3 {
+    background-image: url("../img/connect.png");
+    background-repeat: no-repeat;
+    background-position: 46px 49px;
+}
+
+.list__element__4 {
+    background-image: url("../img/win.png");
+    background-repeat: no-repeat;
+    background-position: 41px 45px;
+}
+
+.features__list__item h2 {
+    margin-bottom: 37px;
+
+    font-size: 17px;
+    line-height: 29px;
+    color: #333b42;
+    text-transform: uppercase;
+}
+
+.features__list__item p {
+    color: #74797e;
+    font-size: 14px;
+    line-height: 25px;
+}
