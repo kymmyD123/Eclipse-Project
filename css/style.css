@@ -600,3 +600,23 @@ p {
 
     background-image: url("../img/up-arrow.png");
 }
+
+.contact-us__pop-up {
+    padding: 23px 0;
+    position: fixed;
+    top: 812px;
+    right: -62px;
+    width: 185px;
+    z-index: 100;
+
+    font-family: 'Gotham Pro Bold', sans-serif;
+    color: #ffffff;
+    
+    background-color: #8500d2;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border: none;
+    transform: rotate(-90deg);
+
+    cursor: pointer;
+}
